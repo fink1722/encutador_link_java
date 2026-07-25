@@ -88,6 +88,7 @@ Representa a tabela do banco de dados.
     - linkOriginal
     - linkNovo
     - dataHora
+    - qrcode
 
 ---
 
@@ -109,6 +110,7 @@ Contém toda a regra de negócio.
     - Persistência no banco.
     - Busca de URLs.
     - Redirecionamento.
+    - gerador de qrcode
 
 ---
 
@@ -230,7 +232,6 @@ A comunicação com a API é feita utilizando a **Fetch API**, sem necessidade d
 
 - Login de usuários
 - Histórico de links
-- QR Code
 
 ---
 

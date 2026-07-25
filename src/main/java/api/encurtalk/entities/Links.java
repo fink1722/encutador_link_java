@@ -21,6 +21,16 @@ public class Links {
 
     private LocalDateTime hora;
 
+    private String qrcode;
+
+
+    public String getQrcode() {
+        return qrcode;
+    }
+
+    public void setQrcode(String qrcode) {
+        this.qrcode = qrcode;
+    }
 
     public String getLinkNovo() {
         return linkNovo;

@@ -33,7 +33,7 @@ public class LinksController {
 
         String redirectUrl = "http://localhost:8080/r/" + lk.getLinkNovo();
 
-        LinkResponse rp = new LinkResponse(lk.getId(), lk.getHora(), lk.getLinkNovo(), lk.getLinkOriginal() , redirectUrl);
+        LinkResponse rp = new LinkResponse(lk.getId(), lk.getHora(), lk.getLinkNovo(), lk.getLinkOriginal() , redirectUrl, lk.getQrcode());
 
         return ResponseEntity.status(HttpStatus.CREATED).body(rp);
 

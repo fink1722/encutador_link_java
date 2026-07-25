@@ -27,11 +27,15 @@ function enviar(){
             resultado.innerHTML = `
                 <h3>Link encurtado!</h3>
 
-                <a href="http://localhost:8080/r/${dados.linkNovo}" target="_blank">
-                http://localhost:8080/r/${dados.linkNovo}
+                <a href="${dados.linkRd}" target="_blank">
+                ${dados.linkRd}
+                
                 </a>
+                
+                <br><br>
+                
+                <img src="${dados.qrcode}" alt="QR Code">
             `;
-
 
 
         })
